@@ -1,8 +1,13 @@
 {
   "name": "fis-parser-less-px2rem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "用于样式表中px/rem相互转换",
   "main": "index.js",
+  "dependencies": {
+    "aimee-extend": "^1.0.1",
+    "linco.lab": "^0.2.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,22 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/liuhaixia888/fis-parser-less-px2rem.git"
   },
-  "author": {
-    "name": "haixialiu"
-  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "aimee-extend": "^1.0.1",
-    "linco.lab": "^0.2.4"
-  },
-  "readme": "# fis-parser-less-px2rem\n\n----\n用于样式表中px/rem相互转换\n\n```\nnpm install fis-parser-less-px2rem -g\n```\n\n```\nfis.config.merge({\n\tmodules: {\n\t\t// 启用插件\n\t\tpostpackager: ['px2rem']\n\t},\n\tsettings: {\n\t\tpostpackager: {\n\t\t\t// 插件配置\n            px2rem: {\n                 '.css': {\n                    constant: 100,\n                    convertTo: 'rem',\n                    rounding: 'round', //floor ceil round none\n                    am2px: true, //可选\n                    border: true, //可选convertTo: 'rem'才起作用, 除了border 1px, 其他的都将px转化为rem\n                    border1px: true //可选convertTo: 'rem'才起作用, 所有的px转换为rem\n                 }               \n            } \n\t\t}\n\t}\n})\n```",
-  "readmeFilename": "README.md",
-  "gitHead": "7a77d022ea0b8682ec8a5ca57376fe773daf9f14",
   "bugs": {
     "url": "https://github.com/liuhaixia888/fis-parser-less-px2rem/issues"
   },
-  "homepage": "https://github.com/liuhaixia888/fis-parser-less-px2rem#readme",
-  "_id": "fis-parser-less-px2rem@1.0.0",
-  "_shasum": "6365d56754437b0a49c88b65eb7c56f85bf7bd42",
-  "_from": "fis-parser-less-px2rem@1.0.0"
+  "homepage": "https://github.com/liuhaixia888/fis-parser-less-px2rem#readme"
 }
