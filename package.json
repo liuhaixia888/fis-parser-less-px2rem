@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/liuhaixia888/fis-parser-less-px2rem/issues"
   },
-  "homepage": "https://github.com/liuhaixia888/fis-parser-less-px2rem#readme"
+  "homepage": "https://github.com/liuhaixia888/fis-parser-less-px2rem#readme",
   "_id": "fis-parser-less-px2rem@1.0.2",
   "_shasum": "6365d56754437b0a49c88b65eb7c56f85bf7bd42",
   "_from": "fis-parser-less-px2rem@1.0.2"
